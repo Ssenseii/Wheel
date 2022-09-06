@@ -20,16 +20,28 @@
     &:nth-child(1) {
       transform: scale(0.7) translateX(-15rem);
       border: 1px solid #777;
+
+      &:hover {
+        transform: scale(0.7) translateX(-15rem) translateY(-2px);
+      }
     }
 
     &:nth-child(2) {
       transform: scale(0.8) translateX(-20rem);
       border: 1px solid #ccc;
+
+      &:hover {
+        transform: scale(0.8) translateX(-20rem) translateY(-3px);
+      }
     }
 
     &:nth-child(3) {
       transform: scale(0.9) translateX(-25rem);
       border: 1px solid #fff;
+
+      &:hover {
+        transform: scale(0.9) translateX(-25rem) translateY(-4px);
+      }
     }
 
     /// middle child
@@ -50,18 +62,26 @@
       border: 1px solid #fff;
 
       &:hover {
-        transform: scale(0.9) translateX(-25rem) translateY(-5px);
+        transform: scale(0.9) translateX(-25rem) translateY(-4px);
       }
     }
 
     &:nth-child(6) {
       transform: scale(0.8) translateX(-20rem);
       border: 1px solid #ccc;
+
+      &:hover {
+        transform: scale(0.8) translateX(-20rem) translateY(-3px);
+      }
     }
 
     &:nth-child(7) {
       transform: scale(0.7) translateX(-15rem);
       border: 1px solid #777;
+
+      &:hover {
+        transform: scale(0.7) translateX(-15rem) translateY(-2px);
+      }
     }
 
     &:hover {
