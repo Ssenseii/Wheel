@@ -40,5 +40,3 @@ htmlWheel.addEventListener("click", () => {
   }, 500);
 
 })
-
-
