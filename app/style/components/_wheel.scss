@@ -10,8 +10,34 @@
 
   overflow: hidden;
 
-  div{
-    height: 20%;
-    border: 1px solid #222;
+  div {
+    height: 10rem;
+    width: 100%;
+    background: #777777;
+
+    position: relative;
+    
+    clip-path: polygon(0 0, 100% 45%, 100% 55%, 0 100%);
+
+    &:nth-child(1){
+      height: 5rem;
+    }
+
+    &:nth-child(2){
+      height: 10rem;
+    }
+
+    &:nth-child(3){
+      height: 20rem;
+    }
+
+    &:nth-child(4){
+
+    }
+
+    &:nth-child(5){
+
+    }
   }
+
 }
