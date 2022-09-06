@@ -2,42 +2,39 @@
   width: 80vh;
   height: 80vh;
   
-  border: 1px solid #222;
+  border: 1px solid #ccc;
   border-radius: 50%;
 
   display: flex;
   flex-direction: column;
 
-  overflow: hidden;
+  justify-content: space-evenly;
 
-  div {
-    height: 10rem;
-    width: 100%;
-    background: #777777;
 
-    position: relative;
-    
-    clip-path: polygon(0 0, 100% 45%, 100% 55%, 0 100%);
+  div{
+    height: 4rem;
+    width: 80%;
+    border: 1px solid #222;
+    border-radius: 10px;
 
     &:nth-child(1){
-      height: 5rem;
+      transform: scale(0.8) translateX(-10%);
     }
 
     &:nth-child(2){
-      height: 10rem;
+      transform: scale(0.9) translateX(-25%);
     }
 
     &:nth-child(3){
-      height: 20rem;
+      transform: scale(1) translateX(-50%);
     }
 
     &:nth-child(4){
-
+      transform: scale(0.9) translateX(-25%);
     }
 
     &:nth-child(5){
-
+      transform: scale(0.8) translateX(-10%);
     }
   }
-
 }
