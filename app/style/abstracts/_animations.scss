@@ -1,30 +1,84 @@
 @keyframes scrolldown-main {
   0% {
     transform: scale(1) translateX(-30rem);
+    opacity: 1;
   }
 
   100% {
-    transform: scale(0.9) translateX(-25rem) translateY(9rem);
+    transform: scale(0.9) translateX(-25rem) translateY(8rem);
+    opacity: 0.75;
   }
 }
 
-@keyframes scrolldown-cell5 {
+@keyframes scrolldown-cell1 {
   0% {
-    transform: scale(0.9) translateX(-25rem);
+    transform: scale(0.7) translateX(-15rem);
+    opacity: 0.25;
   }
 
   100% {
-    transform: scale(0.8) translateX(-20rem) translateY(9rem);
+    transform: scale(0.8) translateX(-20rem) translateY(8rem);
+    opacity: 0.5;
+  }
+}
+
+@keyframes scrolldown-cell2 {
+  0% {
+    transform: scale(0.8) translateX(-20rem);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(0.9) translateX(-25rem) translateY(8rem);
+    opacity: 0.75;
   }
 }
 
 @keyframes scrolldown-cell3 {
   0% {
     transform: scale(0.9) translateX(-25rem);
+    opacity: 0.75;
   }
 
   100% {
-    transform: scale(1) translateX(-30rem) translateY(9rem);
+    transform: scale(1) translateX(-30rem) translateY(8rem);
+    opacity: 1;
+  }
+}
+
+@keyframes scrolldown-cell5 {
+  0% {
+    transform: scale(0.9) translateX(-25rem);
+    opacity: 7.5;
+  }
+
+  100% {
+    transform: scale(0.8) translateX(-20rem) translateY(8rem);
+    opacity: 0.5;
+  }
+}
+
+@keyframes scrolldown-cell6 {
+  0% {
+    transform: scale(0.8) translateX(-20rem);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(0.7) translateX(-15rem) translateY(8rem);
+    opacity: 0.25;
+  }
+}
+
+@keyframes scrolldown-cell7 {
+  0% {
+    transform: scale(0.7) translateX(-15rem);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: scale(0.7) translateX(-15rem) translateY(8rem);
+    opacity: 0;
   }
 }
 
@@ -32,10 +86,26 @@
   animation: scrolldown-main 0.5s ease-in-out;
 }
 
-.scrolldown-cell5 {
-  animation: scrolldown-cell5 0.5s ease-in-out;
+.scrolldown-cell1 {
+  animation: scrolldown-cell1 0.5s ease-in-out;
+}
+
+.scrolldown-cell2 {
+  animation: scrolldown-cell2 0.5s ease-in-out;
 }
 
 .scrolldown-cell3 {
   animation: scrolldown-cell3 0.5s ease-in-out;
+}
+
+.scrolldown-cell5 {
+  animation: scrolldown-cell5 0.5s ease-in-out;
+}
+
+.scrolldown-cell6 {
+  animation: scrolldown-cell6 0.5s ease-in-out;
+}
+
+.scrolldown-cell7 {
+  animation: scrolldown-cell7 0.5s ease-in-out;
 }
