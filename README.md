@@ -26,4 +26,3 @@ This is a working protoype set within the constraints of desktop webpages only (
   - Clicking repeatedly skips animation and goes straight for value changes
     => make it so that repeated clicking turns off animations completely and goes for free-range mode
 
-    
