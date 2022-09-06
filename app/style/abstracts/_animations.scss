@@ -1,0 +1,41 @@
+@keyframes scrolldown-main {
+  0% {
+    transform: scale(1) translateX(-30rem);
+  }
+
+  100% {
+    transform: scale(0.9) translateX(-25rem) translateY(9rem);
+  }
+}
+
+@keyframes scrolldown-cell5 {
+  0% {
+    transform: scale(0.9) translateX(-25rem);
+  }
+
+  100% {
+    transform: scale(0.8) translateX(-20rem) translateY(9rem);
+  }
+}
+
+@keyframes scrolldown-cell3 {
+  0% {
+    transform: scale(0.9) translateX(-25rem);
+  }
+
+  100% {
+    transform: scale(1) translateX(-30rem) translateY(9rem);
+  }
+}
+
+.scrolldown-main {
+  animation: scrolldown-main 0.5s ease-in-out;
+}
+
+.scrolldown-cell5 {
+  animation: scrolldown-cell5 0.5s ease-in-out;
+}
+
+.scrolldown-cell3 {
+  animation: scrolldown-cell3 0.5s ease-in-out;
+}
